@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>フィルタリング機能とモーダルを実装</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+</head>
+<body>
+    <h1>フィルタリング機能とモーダルを実装</h1>
+
+    <div class="container">
+        <div class="btn-wrapper">
+            <button type="button" data-filter="all">すべて</button>
+            <button type="button" data-filter=".japan">日本の観光</button>
+            <button type="button" data-filter=".world">世界の観光</button>
+            <button type="button" data-filter=".traveler">旅系YouTuber</button>
+            <button type="button" data-sort="order:asc">人気順</button>
+        </div><!-- /.btn-wrapper -->
+
+        <div class="contents">
+            <div class="mix japan" data-order="3">
+                <a href="https://www.youtube.com/watch?v=HUjI8mP5GzU" data-fancybox>
+                    <img src="img/01A.jpg" alt="">
+                </a>
+            </div><!-- /.mix japan-->
+
+            <div class="mix japan" data-order="4">
+                <a href="https://www.youtube.com/watch?v=aAJ5T8ftOjs" data-fancybox>
+                    <img src="img/02A.jpg" alt="">
+                </a>
+            </div><!-- /.mix japan-->
+
+            <div class="mix japan" data-order="6">
+                <a href="https://www.youtube.com/watch?v=RLXEKiqsdCs" data-fancybox>
+                    <img src="img/03A.jpg" alt="">
+                </a>
+            </div><!-- /.mix japan-->
+
+            <div class="mix world" data-order="1">
+                <a href="https://www.youtube.com/watch?v=ua5B-7ZeNzs" data-fancybox>
+                    <img src="img/04B.jpg" alt="">
+                </a>
+            </div><!-- /.mix world-->
+
+            <div class="mix world" data-order="5">
+                <a href="https://www.youtube.com/watch?v=j9409J-Lm8w" data-fancybox>
+                    <img src="img/05B.jpg" alt="">
+                </a>
+            </div><!-- /.mix world-->
+
+            <div class="mix world" data-order="2">
+                <a href="https://www.youtube.com/watch?v=gDbGvPFOohU" data-fancybox>
+                    <img src="img/06B.jpg" alt="">
+                </a>
+            </div><!-- /.mix world-->
+
+            <div class="mix traveler" data-order="8">
+                <a href="https://www.youtube.com/watch?v=6kHWgCmRebk" data-fancybox>
+                    <img src="img/07C.jpg" alt="">
+                </a>
+            </div><!-- /.mix traveler-->
+
+            <div class="mix traveler world" data-order="7">
+                <a href="https://www.youtube.com/watch?v=RX1o36Br--I" data-fancybox>
+                    <img src="img/08C.jpg" alt="">
+                </a>
+            </div><!-- /.mix traveler-->
+
+            <div class="mix traveler" data-order="9">
+                <a href="https://www.youtube.com/watch?v=toQ5bMf8mfw" data-fancybox>
+                    <img src="img/09C.jpg" alt="">
+                </a>
+            </div><!-- /.mix travelar-->
+        </div><!-- /.contents -->
+    </div><!-- /.container -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/mixitup.js"></script>
+    <script>
+        let mixer = mixitup('.contents');
+    </script>
+</body>
+</html>

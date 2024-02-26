@@ -1,0 +1,16 @@
+動画のカテゴリーを3つ決める。カテゴリーごとに3つずつ動画を決める
+それぞれの動画をキャプチャーにとってPSで1280px×720pxアセットで書き出し
+
+動画のカテゴリー
+1.日本の観光
+    a北海道観光　https://www.youtube.com/watch?v=aAJ5T8ftOjs
+    b東京観光　https://www.youtube.com/watch?v=HUjI8mP5GzU
+    c大阪観光　https://www.youtube.com/watch?v=RLXEKiqsdCs
+2.世界の観光
+    aパリ観光　https://www.youtube.com/watch?v=ua5B-7ZeNzs
+    b香港観光　https://www.youtube.com/watch?v=j9409J-Lm8w
+    cドバイ観光　https://www.youtube.com/watch?v=gDbGvPFOohU
+3.旅系YouTuber
+    a EXIT JUCK マンペー　https://www.youtube.com/watch?v=6kHWgCmRebk
+    b スーツ 旅行/Suit Travel　https://www.youtube.com/watch?v=RX1o36Br--I
+    c em iffy　https://www.youtube.com/watch?v=toQ5bMf8mfw
